@@ -1,0 +1,25 @@
+#######################################
+# Syntax Coloring Map For 
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+set KEYWORD2
+get KEYWORD1
+write	KEYWORD2
+read	KEYWORD2
+setTime	KEYWORD2
+setDate	KEYWORD2
+getTime	KEYWORD2
+getDate	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
