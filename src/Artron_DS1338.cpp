@@ -42,7 +42,7 @@ bool Artron_DS1338::read(struct tm* timeinfo) {
     timeinfo->tm_wday = BCDtoDEC(buff[3] & 0x07);
     timeinfo->tm_mday = BCDtoDEC(buff[4] & 0x3F);
     timeinfo->tm_mon = BCDtoDEC(buff[5] & 0x1F) - 1;
-    timeinfo->tm_year = BCDtoDEC(buff[6]) + 2000 - 1900;
+    timeinfo->tm_year = BCDtoDEC(buff[6]);// + 2000 - 1900;
 
     return true;
 }
